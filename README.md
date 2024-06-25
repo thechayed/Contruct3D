@@ -1,5 +1,5 @@
 <img src="https://img.itch.zone/aW1hZ2UvMjc4MzM3OC8xNjY4NzU3My5wbmc=/original/T7i30X.png" alt="Construct3D Logo" width="200" height="200"/>
-<p style="width: 100%; display: flex; flex-direction:row"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord" width="32"/> <img src="https://static-00.iconduck.com/assets.00/itch-io-icon-1024x1024-fev9qpvd.png" alt="Itch.io" width="32"/> <img src="https://static-00.iconduck.com/assets.00/document-round-icon-2048x2048-gay00wsr.png" alt="Contribution Guide" width="32"/></p>
+<p><span></span><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord" width="32"/> <img src="https://static-00.iconduck.com/assets.00/itch-io-icon-1024x1024-fev9qpvd.png" alt="Itch.io" width="32"/> <img src="https://static-00.iconduck.com/assets.00/document-round-icon-2048x2048-gay00wsr.png" alt="Contribution Guide" width="32"/></p>
 
 
 # Construct3D
