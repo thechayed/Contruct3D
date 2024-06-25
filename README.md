@@ -1,4 +1,3 @@
-![Construct3D Logo](https://img.itch.zone/aW1hZ2UvMjc4MzM3OC8xNjY4NzU3My5wbmc=/original/T7i30X.png)
 
 <img src="[drawing.jpg](https://img.itch.zone/aW1hZ2UvMjc4MzM3OC8xNjY4NzU3My5wbmc=/original/T7i30X.png)" alt="Construct3D Logo" width="200" height="200"/>
 
