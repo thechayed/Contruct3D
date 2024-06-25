@@ -1,0 +1,2 @@
+Editor Build:
+npx vite build --outDir "../Chrome Plugin/Editor Build"
