@@ -1,5 +1,7 @@
 ![Construct3D Logo](https://img.itch.zone/aW1hZ2UvMjc4MzM3OC8xNjY4NzU3My5wbmc=/original/T7i30X.png)
 
+<img src="[drawing.jpg](https://img.itch.zone/aW1hZ2UvMjc4MzM3OC8xNjY4NzU3My5wbmc=/original/T7i30X.png)" alt="Construct3D Logo" width="200" height="200"/>
+
 [![Discord](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png)](https://discord.gg/NQV8k4a5)
 [![Itch.io](https://static-00.iconduck.com/assets.00/itch-io-icon-1024x1024-fev9qpvd.png)](https://cairocreative.itch.io/construct3d)
 [![Contribution Guide](https://static-00.iconduck.com/assets.00/document-round-icon-2048x2048-gay00wsr.png)](path/to/contribution-guide)
