@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 
+import signals from 'signals';
 import { Config } from './Config.js';
 import { Loader } from './Loader.js';
 import { History as _History } from './History.js';

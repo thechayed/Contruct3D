@@ -3,12 +3,14 @@
 // imports.innerText = "{'imports': {'three/addons/': './ThreeJS Editor/examples/jsm/','three/examples/': './ThreeJS Editor/examples/','three-gpu-pathtracer': './Libs/pathtracer.js','three-mesh-bvh': './Libs/mesh_bvh.js'}}";
 // imports.setAttribute("type", "importmap");
 
+import signals from 'signals';
+
 import * as THREE from 'three';
 
-var overlayDiv = document.createElement('div');
-overlayDiv.id = 'threejs-overlay';
-document.body.appendChild(overlayDiv);
-var overlay = overlayDiv;
+// var overlayDiv = document.createElement('div');
+// overlayDiv.id = 'threejs-overlay';
+// document.body.appendChild(overlayDiv);
+// var overlay = overlayDiv;
 
 import * as SkeletonUtils from 'three/addons/utils/SkeletonUtils.js';
 
@@ -153,7 +155,7 @@ document.addEventListener( 'drop', function ( event ) {
 
 function onWindowResize() {
 
-  editor.signals.windowResize.dispatch();
+  //editor.signals.windowResize.dispatch();
 
 }
 

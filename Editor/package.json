@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "signals": "^1.0.0",
     "three-gpu-pathtracer": "^0.0.23"
   }
 }
