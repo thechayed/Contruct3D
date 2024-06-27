@@ -150,13 +150,10 @@ document.addEventListener( 'drop', function ( event ) {
     editor.loader.loadFiles( event.dataTransfer.files );
 
   }
-
 } );
 
 function onWindowResize() {
-
-  //editor.signals.windowResize.dispatch();
-
+  editor.signals.windowResize.dispatch();
 }
 
 window.addEventListener( 'resize', onWindowResize );
@@ -198,7 +195,33 @@ if ( 'serviceWorker' in navigator ) {
     navigator.serviceWorker.register( 'sw.js' );
 
   } catch ( error ) {
-
   }
-
 }
+
+
+var threeJSViewport = document.getElementById("viewport");
+function updateEditorViewport() {
+  // Check if the Construct 3 layout is available
+  constructLayout = document.getElementsByClassName("layoutScrollContainer");
+  
+  if(constructLayout == null)
+  {
+    // If not, hide the viewport
+    threeJSViewport.style.display = "none";
+  }
+  else
+  {
+    // Otherwise, Display the viewport
+    threeJSViewport.style.display = "default";
+    threeJSViewport.style.position = "fixed";
+    
+    // And position the viewport to the Construct 3 layout
+    threeJSViewport.style.top = constructLayout.getClientBoundingRect().top + "px"; 
+    threeJSViewport.style.bottom = constructLayout.getClientBoundingRect().bottom + "px"; 
+    threeJSViewport.style.left = constructLayout.getClientBoundingRect().left + "px"; 
+    threeJSViewport.style.right = constructLayout.getClientBoundingRect().right + "px"; 
+  }
+}
+
+// Update the editor viewport
+setInterval(updateEditorViewport, 2000);

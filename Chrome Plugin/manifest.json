@@ -6,6 +6,7 @@
     "permissions": [
       "activeTab"
     ],
+    "matches": ["*://editor.construct.net/*"],
     "background": {
     },
     "action": {
@@ -18,15 +19,14 @@
     },
     "content_scripts": [
       {
-        "matches": ["<all_urls>"],
-        "js": ["C3D_Editor_Webpack.js"]
+        "matches": ["*://editor.construct.net/*"],
+        "js": ["./Webpacked Editor/C3D_Editor_Webpack.js"]
       }
     ],
     "web_accessible_resources": [
       {
         "resources": ["overlay.css"],
-        "matches": ["<all_urls>"]
+        "matches": ["*://editor.construct.net/*"]
       }
     ]
   }
-  
