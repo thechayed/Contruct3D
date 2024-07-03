@@ -32,7 +32,7 @@ To start using Construct3D, follow these steps:
 
 ## Contributing
 
-We welcome contributions from the community! Please read our [Contribution Guide](path/to/contribution-guide) to get started. Whether it's reporting bugs, suggesting features, or contributing code, your help is appreciated.
+We welcome contributions from the community! Please read our [Contribution Guide](https://github.com/thechayed/Contruct3D/blob/main/CONTRIBUTE.md) to get started. Whether it's reporting bugs, suggesting features, or contributing code, your help is appreciated.
 
 ## License
 
